@@ -1,0 +1,3 @@
+/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles/point-test.dir
+/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles/edit_cache.dir
+/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles/rebuild_cache.dir
