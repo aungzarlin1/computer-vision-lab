@@ -50,4 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/point-test.dir/DependInfo.cmake"
+  "CMakeFiles/videoshow.dir/DependInfo.cmake"
+  "CMakeFiles/sparsetest.dir/DependInfo.cmake"
+  "CMakeFiles/densetest.dir/DependInfo.cmake"
   )

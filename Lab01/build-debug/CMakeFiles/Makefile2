@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /home/aungzarlin/Desktop/CV/Lab01/build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/point-test.dir/all
+all: CMakeFiles/videoshow.dir/all
+all: CMakeFiles/sparsetest.dir/all
+all: CMakeFiles/densetest.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +75,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/point-test.dir/clean
+clean: CMakeFiles/videoshow.dir/clean
+clean: CMakeFiles/sparsetest.dir/clean
+clean: CMakeFiles/densetest.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +87,7 @@ clean: CMakeFiles/point-test.dir/clean
 CMakeFiles/point-test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point-test.dir/build.make CMakeFiles/point-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point-test.dir/build.make CMakeFiles/point-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles --progress-num=1,2 "Built target point-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles --progress-num=3,4 "Built target point-test"
 .PHONY : CMakeFiles/point-test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +105,84 @@ point-test: CMakeFiles/point-test.dir/rule
 CMakeFiles/point-test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point-test.dir/build.make CMakeFiles/point-test.dir/clean
 .PHONY : CMakeFiles/point-test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/videoshow.dir
+
+# All Build rule for target.
+CMakeFiles/videoshow.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles --progress-num=7,8 "Built target videoshow"
+.PHONY : CMakeFiles/videoshow.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/videoshow.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/videoshow.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/videoshow.dir/rule
+
+# Convenience name for target.
+videoshow: CMakeFiles/videoshow.dir/rule
+.PHONY : videoshow
+
+# clean rule for target.
+CMakeFiles/videoshow.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/clean
+.PHONY : CMakeFiles/videoshow.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sparsetest.dir
+
+# All Build rule for target.
+CMakeFiles/sparsetest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles --progress-num=5,6 "Built target sparsetest"
+.PHONY : CMakeFiles/sparsetest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sparsetest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sparsetest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sparsetest.dir/rule
+
+# Convenience name for target.
+sparsetest: CMakeFiles/sparsetest.dir/rule
+.PHONY : sparsetest
+
+# clean rule for target.
+CMakeFiles/sparsetest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/clean
+.PHONY : CMakeFiles/sparsetest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/densetest.dir
+
+# All Build rule for target.
+CMakeFiles/densetest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles --progress-num=1,2 "Built target densetest"
+.PHONY : CMakeFiles/densetest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/densetest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/densetest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aungzarlin/Desktop/CV/Lab01/build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/densetest.dir/rule
+
+# Convenience name for target.
+densetest: CMakeFiles/densetest.dir/rule
+.PHONY : densetest
+
+# clean rule for target.
+CMakeFiles/densetest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/clean
+.PHONY : CMakeFiles/densetest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

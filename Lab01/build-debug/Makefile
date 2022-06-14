@@ -129,6 +129,69 @@ point-test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point-test.dir/build.make CMakeFiles/point-test.dir/build
 .PHONY : point-test/fast
 
+#=============================================================================
+# Target rules for targets named videoshow
+
+# Build rule for target.
+videoshow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 videoshow
+.PHONY : videoshow
+
+# fast build rule for target.
+videoshow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/build
+.PHONY : videoshow/fast
+
+#=============================================================================
+# Target rules for targets named sparsetest
+
+# Build rule for target.
+sparsetest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sparsetest
+.PHONY : sparsetest
+
+# fast build rule for target.
+sparsetest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/build
+.PHONY : sparsetest/fast
+
+#=============================================================================
+# Target rules for targets named densetest
+
+# Build rule for target.
+densetest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 densetest
+.PHONY : densetest
+
+# fast build rule for target.
+densetest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/build
+.PHONY : densetest/fast
+
+densetest.o: densetest.cpp.o
+.PHONY : densetest.o
+
+# target to build an object file
+densetest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/densetest.cpp.o
+.PHONY : densetest.cpp.o
+
+densetest.i: densetest.cpp.i
+.PHONY : densetest.i
+
+# target to preprocess a source file
+densetest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/densetest.cpp.i
+.PHONY : densetest.cpp.i
+
+densetest.s: densetest.cpp.s
+.PHONY : densetest.s
+
+# target to generate assembly for a file
+densetest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/densetest.dir/build.make CMakeFiles/densetest.dir/densetest.cpp.s
+.PHONY : densetest.cpp.s
+
 point-test.o: point-test.cpp.o
 .PHONY : point-test.o
 
@@ -153,6 +216,54 @@ point-test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point-test.dir/build.make CMakeFiles/point-test.dir/point-test.cpp.s
 .PHONY : point-test.cpp.s
 
+sparsetest.o: sparsetest.cpp.o
+.PHONY : sparsetest.o
+
+# target to build an object file
+sparsetest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/sparsetest.cpp.o
+.PHONY : sparsetest.cpp.o
+
+sparsetest.i: sparsetest.cpp.i
+.PHONY : sparsetest.i
+
+# target to preprocess a source file
+sparsetest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/sparsetest.cpp.i
+.PHONY : sparsetest.cpp.i
+
+sparsetest.s: sparsetest.cpp.s
+.PHONY : sparsetest.s
+
+# target to generate assembly for a file
+sparsetest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparsetest.dir/build.make CMakeFiles/sparsetest.dir/sparsetest.cpp.s
+.PHONY : sparsetest.cpp.s
+
+videoshow.o: videoshow.cpp.o
+.PHONY : videoshow.o
+
+# target to build an object file
+videoshow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/videoshow.cpp.o
+.PHONY : videoshow.cpp.o
+
+videoshow.i: videoshow.cpp.i
+.PHONY : videoshow.i
+
+# target to preprocess a source file
+videoshow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/videoshow.cpp.i
+.PHONY : videoshow.cpp.i
+
+videoshow.s: videoshow.cpp.s
+.PHONY : videoshow.s
+
+# target to generate assembly for a file
+videoshow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/videoshow.dir/build.make CMakeFiles/videoshow.dir/videoshow.cpp.s
+.PHONY : videoshow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +272,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... densetest"
 	@echo "... point-test"
+	@echo "... sparsetest"
+	@echo "... videoshow"
+	@echo "... densetest.o"
+	@echo "... densetest.i"
+	@echo "... densetest.s"
 	@echo "... point-test.o"
 	@echo "... point-test.i"
 	@echo "... point-test.s"
+	@echo "... sparsetest.o"
+	@echo "... sparsetest.i"
+	@echo "... sparsetest.s"
+	@echo "... videoshow.o"
+	@echo "... videoshow.i"
+	@echo "... videoshow.s"
 .PHONY : help
 
 
